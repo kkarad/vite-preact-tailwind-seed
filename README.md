@@ -39,9 +39,12 @@ Finally run
 npm run dev
 ```
 
+Initialise git repository
+
 ```
 git init
 git add .
 git commit -m "Initial commit"
-git remote add origin  
+git remote add origin https://github.com/kkarad/vite-preact-tailwind-seed.git
+git push -set-upstream origin master
 ```
